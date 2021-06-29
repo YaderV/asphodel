@@ -2,7 +2,7 @@ const Categories = (props) => {
   let options = Object.keys(props.options).map((name, idx) => {
     return (
       <li key={idx}>
-        <label>{name.toUpperCase()}
+        <label>{name}
           <input
             value={name}
             type="checkbox"
